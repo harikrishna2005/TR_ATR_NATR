@@ -5,6 +5,13 @@ import numpy as np
 import talib
 from datetime import datetime, timedelta
 
+
+# NATR	Market State
+# < 1%	Quiet
+# 1–3%	Normal
+# 3–6%	High volatility
+# > 6%	Extreme volatility
+
 # Set page to wide mode to comfortably see the 6-month timeline
 st.set_page_config(layout="wide", page_title="Grid Bot ATR Analytics")
 
