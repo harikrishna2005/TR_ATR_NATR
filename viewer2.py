@@ -1,5 +1,6 @@
 # python -m pip install --upgrade pip
 # pip install streamlit numpy pandas plotly
+# streamlit run main.py
 
 import streamlit as st
 import pandas as pd
