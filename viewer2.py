@@ -7,6 +7,13 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+# NATR	Market State
+# < 1%	Quiet
+# 1–3%	Normal
+# 3–6%	High volatility
+# > 6%	Extreme volatility
+
+
 # Set page layout to wide for comfortable chart reading
 st.set_page_config(layout="wide", page_title="Advanced Volatility Candlestick Viewer")
 
